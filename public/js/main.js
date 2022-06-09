@@ -209,7 +209,7 @@ function removeConnection(connectionId) {
       $("#btnradio4").val(newval);
       var oldRequest=$("#btnradio1").val();
       var newRequest=parseInt(oldRequest)+1;
-      $("#btnradio1").val(newval);
+      $("#btnradio1").val(newRequest);
       $("#get_connections_btn").text("Connections ("+newval+")");
       $("#get_suggestions_btn").text("Suggestions ("+newRequest+")");
       var form = ajaxForm([
